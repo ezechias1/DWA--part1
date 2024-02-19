@@ -8,14 +8,26 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.13.1/cdn/themes/light.css" />
     <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.13.1/cdn/shoelace-autoloader.js"></script>
     <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.13.1/cdn/components/drawer/drawer.js"></script>
+    <script src="scripts.js"></script>
 </head>
 <body>
-    <sl-button id="addButton">Add</sl-button>
-    <sl-button id="subtractButton">Subtract</sl-button>
-    <sl-button id="resetButton">Reset</sl-button>
-    <sl-input id ="placeholder"></sl-input>
-
+   <h1>
+    TALLY COUNT
+   </h1>
+    <sl-card class="card-basic">
+        <sl-button id="addButton">Add</sl-button>
+        <sl-button id="subtractButton">Subtract</sl-button>
+        <sl-button id="resetButton">Reset</sl-button>
+        <sl-input id ="placeholder"></sl-input>
     
+      </sl-card>
+      
+      <style>
+        .card-basic {
+          max-width: 300px;
+        }
+      </style>
+      
 </body>
 </html>
 
