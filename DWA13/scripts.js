@@ -6,7 +6,7 @@ const names = ['Ashwin', 'Sibongile', 'Jan-Hendrik', 'Sifso', 'Shailen', 'Frikki
 
 // Use forEach to console log each name to the console.
 
-names.forEach(name => {
+names.forEach((name, index) => {
   console.log(name);
 });
 
@@ -56,7 +56,7 @@ console.log(containsS);
 const nameProvinceObject = names.reduce((acc, name, index) => {
   acc[name] = provinces[index] || "Unknown";
   return acc;
-}, {});
+}, []);
 
 console.log(nameProvinceObject);
           
