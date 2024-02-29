@@ -3,6 +3,9 @@ import React from "react"
 export default function Header(){
     return(
      <header>
+
+        
+
      <h1 className="Info">
      insert picture<br/>
      Ezechias Mulamba

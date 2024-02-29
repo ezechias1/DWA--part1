@@ -1,6 +1,6 @@
-import { html, css, LitElement } from 'https://unpkg.com/lit-element?module';
-
-class CounterApp extends LitElement {
+import { LitElement } from ": https://cdn.jsdelivr.net/gh/lit/dist@3/core/lit-core.min.js"
+ console.log("test")
+export class CounterApp extends LitElement {
 static styles = css`
 :host {
 display: block;
@@ -59,8 +59,8 @@ return html`
 <h1>Counter App</h1>
 <p>Counter: ${this.count}</p>
 <p>Status: ${this.state}</p>
-<button @click="${this.increase}">Increase</button>
-<button @click="${this.decrease}">Decrease</button>
+<button onclick="${this.increase}">Increase</button>
+<button onclick="${this.decrease}">Decrease</button>
 `;
 }
 }
